@@ -5,6 +5,8 @@
 ## Issues
 
 - The catch is missing the ()
+- in the results = await should be Promise.all()
+- Changed from .post to .get
 - The code doesn't handle GitHub rate limits and may exceed the limit if there are many requests.
 
 ## Improvements
